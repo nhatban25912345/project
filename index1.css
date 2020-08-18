@@ -179,12 +179,21 @@ body.html {
 
 /* .main-content -----------------------------------------*/
 
+.main-content {
+    margin: 0;
+    padding:0;
+    background-color: gray;
+    
+}
+
 .support {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     margin-left: 10%;
     height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .title {
@@ -223,6 +232,7 @@ body.html {
     width: 100%;
     height: 400px;
     border:  solid 2px black ;
+    margin-top: 1px;
 }
 
 .second .key{
@@ -251,8 +261,10 @@ body.html {
     box-sizing: border-box;
     width: 60%; 
     height: 1224px;
-    background-color: chartreuse;
+    background-color: white ;
     border-radius: solid 20px white ;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .main-product {
@@ -271,7 +283,6 @@ body.html {
     box-sizing: border-box;
     width: 45%;
     /* height: 56%; */
-    background-color: red;
     
 }
 
@@ -279,13 +290,23 @@ body.html {
     width: 100% ;
 }
 
+.carousel-inner.product {
+    width: 100%;
+    height: 250px;
+}
+
+.d-block.w-100.second1 {
+    height: 250px;  
+    
+}
+
+
 .status-product {
     margin: 0;
     padding:0;
     box-sizing: border-box;
     width: 55%;
-    /* height: 56%; */
-    background-color: lightcoral;
+    /* height: 56%; */  
 }
 
 .title-product   {
@@ -359,7 +380,6 @@ body.html {
     box-sizing: border-box;
     width: 100%;
     height: 44%;
-    background-color: salmon;
 }
 
 
