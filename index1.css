@@ -81,7 +81,7 @@ body.html {
 
 .navbar {
     /* position: fixed; */
-    /* position: fixed;  */
+    position: sticky; 
     padding: 0;
     top: 0;
     /* padding-right: 20px; */
@@ -97,7 +97,7 @@ body.html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    width: 100vw;
+    width: 100vw    ;
     padding-left: 15% ;
 }
 
@@ -124,7 +124,7 @@ body.html {
 
 .dropdown:hover   .dropdown-content {
     display: block; ;
-}
+}   
 
 .main-content {
     padding: 0;

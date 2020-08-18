@@ -81,7 +81,7 @@ body.html {
 
 .navbar {
     /* position: fixed; */
-    position: sticky; 
+    /* position: ;  */
     padding: 0;
     top: 0;
     /* padding-right: 20px; */
@@ -323,6 +323,7 @@ body.html {
     transition: 0.1s ease-in-out;
 }
 .product-title {
+    overflow: hidden;
     text-transform: uppercase;
     font-size: 0.9rem;
     line-height: 32px ;
@@ -487,3 +488,44 @@ body.html {
     font-size: 30px;
     color: white;
 }
+
+@media screen and (max-width: 425px) {
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+    .poster-row img {
+        max-width: 100vw;
+        height: 200px;
+    }
+    .carousel-inner {
+        display: none;
+    }
+    .background {
+        display: none;
+    }
+    .support{
+        display: none;
+    }
+    .content {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .li-products {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo {
+        /* margin: 0;
+        padding: 0;
+        position: relative;
+        z-index: 0; */
+        display: none;
+    }
+    .caption {
+        display: none;
+    }
+    
+    }
